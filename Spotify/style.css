@@ -8,10 +8,10 @@ nav {
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: rgb(25, 22, 22);
+  background-color: rgb(1, 1, 1);
   font-size: 20px;
-  font-family: "Edu NSW ACT Foundation", cursive;
-color: rgb(205, 178, 178);
+  font-family: 'Tillana', cursive;
+  color: rgb(82, 79, 79);
   align-items: center;
   justify-content: space-between;
 }
@@ -34,68 +34,66 @@ li {
   width: 110px;
   height: 30px;
 }
-.singer{
-    width: 100%;
-    height: 756px;
-    display: block;
-    
+.triangle {
+  width: 100%;
+  height: 756px;
+  display: block;
 }
-.singer-box{
-    position: relative;
-    color: white;
-    text-align: center;
+.singer-box {
+  position: relative;
+  color: white;
+  text-align: center;
 }
-.top-right-1{
-    position: absolute;
-    top: 140px;
-    right: 175px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 40px;
-    
+.bottom-left-1 {
+  position: absolute;
+  bottom: 282px;
+  left: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 87px;
+  text-align: left;
 }
-.top-right-2{
-        position: absolute;
-        top: 209px;
-        right: 81px;
-        font-family: 'Edu NSW ACT Foundation', cursive;
-        font-size: 20px;
-
-}
-/* p::first-letter{
-    font-size: 50px;
-    color: #17a563; */
-
-               /* hover */
-nav ul li a{
-    text-decoration: none;
-    color: rgb(128, 130, 131);
-    text-transform: uppercase;
-    position: relative;
-    padding: 3px 0px;
-    }
-     
-nav li a::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 1.5px;
-    width: 0%;
-    background:#17a563;
-    transition: all 0.3s ease-in;
-}
-nav li a:hover:before{
-width: 100%;
+/* hover */
+nav ul li a {
+  text-decoration: none;
+  color: rgb(192, 191, 191);
+  text-transform: uppercase;
+  position: relative;
+  padding: 3px 0px;
 }
 
-a:hover{
-    color: rgb(255, 255, 255);
+nav li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1.5px;
+  width: 0%;
+  background: gold;
+  transition: all 0.3s ease-in;
+}
+nav li a:hover:before {
+  width: 100%;
+}
+
+a:hover {
+  color: gold;
 }
 .about {
-    padding: 0%;
-    margin: 0%;
-    background-color: rgb(163, 157, 146);
-    width: 100%;
-    height: 425px;
-
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(25, 25, 23);
+  width: 100%;
+  height: 425px;
+  
+}
+.about_txt{
+  color: whitesmoke;
+  font-size: 50px;
+  position: relative;
+  top: 80px;
+  left: 20px;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 2px solid gold;
+  width: 400px;
+  padding-left:20px ;
 }
