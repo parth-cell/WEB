@@ -83,17 +83,30 @@ a:hover {
   margin: 0%;
   background-color: rgb(25, 25, 23);
   width: 100%;
-  height: 425px;
+  height: 500px;
+  color: whitesmoke;
+  
   
 }
 .about_txt{
   color: whitesmoke;
   font-size: 50px;
   position: relative;
-  top: 80px;
+  top: 70px;
   left: 20px;
   font-family: 'Raleway', sans-serif;
   border-bottom: 2px solid gold;
-  width: 400px;
-  padding-left:20px ;
+  width: 350px;
+  padding-left:0px ;   /* for creating spacing in about us for left */
+}
+.about_content{
+  color: gold;
+  font-size: 15px;
+  position: relative;
+  top:105px;
+  left: 5px;
+  margin-left: 20px;
+  width: 333px;
+  word-wrap: break-word;
+  font-family: 'Fasthand', cursive;
 }
