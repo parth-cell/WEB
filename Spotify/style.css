@@ -78,7 +78,6 @@ nav li a:hover:before {
 a:hover {
   color: gold;
 }
-/* About US Content  */
 .about {
   padding: 0%;
   margin: 0%;
@@ -115,17 +114,16 @@ a:hover {
 .column {
   float: right;
   width: 23.33%;
-  
-  height: 215px;
   position: relative;
   bottom: 145px; 
 }
-/* .row:after {
+
+.row:after {
   content: "";
-  padding: 0%;
   display: table;
   clear: both;
-} */
+  
+}
 .upper{
   font-size: 50px;
   color: rgb(219, 203, 128);
@@ -152,7 +150,7 @@ a:hover {
   height: 1.5px;
   width: 0%;
   background: gold;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
 }
 .upper:hover:before {
   width: 0%;
