@@ -229,9 +229,9 @@ pre::first-letter{
 pre{
   font-size: 30px;
   height: 50PX;
-  font-family: 'Pacifico', cursive;
+  
 }
 b{
-  font-size: 18px;
-  font-family: 'Pacifico', cursive;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
 }
