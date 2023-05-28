@@ -2,6 +2,8 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  
 }
 
 nav {
@@ -158,4 +160,73 @@ a:hover {
 
 .upper:hover {
   color: gold;
+}
+
+.fmimage {
+  background-image: url("3.jpg");
+  position: relative;
+  height: 756px;
+  width: 100%;
+ 
+}
+.container {
+  right: 50%;
+  margin: 25px;
+  height: 485px;
+  background-color: rgba(0,0,0, 0.4); 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 0.5px solid #b3a513;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 45%;
+  padding: 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=text] {
+  width: 100%;
+  align-items: center;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: rgba(134, 133, 127, 0.4);
+  border-radius: 60px;
+ }
+
+input[type=text]:focus,input[type=text]:focus{
+  background-color: #827d7d;
+  outline: none;
+}
+
+
+.btn {
+  background-color: #4a4a3c;
+  position: absolute;
+  right:30px;
+  color: white;
+  padding: 16px ;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border: none;
+  border-radius: 60px;
+  font-size: 17px;
+  
+}
+
+.btn:hover {
+  opacity: 3;
+  color: gold;
+}
+pre::first-letter{
+  font-size: 50px;
+  color: gold;
+}
+pre{
+  font-size: 30px;
+  height: 50PX;
 }
